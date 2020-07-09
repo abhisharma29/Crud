@@ -38,4 +38,7 @@ export class ProductsComponent implements OnInit {
       price: price.value,
     });
   }
+  deleteProduct(id) {
+    this.products.splice(id, 1);
+  }
 }

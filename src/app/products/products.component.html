@@ -45,7 +45,7 @@
             <td>{{ pdt.id }}</td>
             <td>{{ pdt.name }}</td>
             <td>{{ pdt.price }}</td>
-            <td>Delete</td>
+            <td (click)="deleteProduct(i)">Delete</td>
           </tr>
         </tbody>
       </table>
