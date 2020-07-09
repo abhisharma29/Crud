@@ -16,7 +16,11 @@
           <label for="id">Product Price</label>
           <input type="text" class="form-control" id="price" #price />
         </div>
-        <button class="btn btn-primary" (click)="addProduct(id, name, price)">
+        <button
+          type="button"
+          class="btn btn-primary"
+          (click)="addProduct(id, name, price)"
+        >
           Add Product
         </button>
         <button class="btn btn-success mx-2">Save Product</button>
